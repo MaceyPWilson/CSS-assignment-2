@@ -8,7 +8,7 @@ body {
 
 article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 header, footer {
@@ -54,24 +54,20 @@ nav ul li {
 
 .photo {
     display: flex;
-    margin: 5rem 0rem 0rem 0rem;
+    margin: 5rem 0rem 0rem 5rem;
     flex-direction: column;
     align-items: center;
     color: #000;
+    max-width: 100%;
+    height: auto;
 }
 
 .text {
-    background: #fff;
     color: #000;
-    margin: 1rem 15rem 5rem;
-    padding: 2rem;
+    margin: 1rem 5rem 5rem;
     font-size: 100%;
     max-width: 100%;
     box-sizing: border-box;
-}
-
-h2 {
-    text-align: center;
 }
 
 img {
